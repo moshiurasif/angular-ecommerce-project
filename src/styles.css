@@ -24,11 +24,11 @@ body {
   color: blueviolet;
   cursor: pointer;
 }
-.error-p{
+.error-p {
   color: red;
 }
 
-.message-p{
+.message-p {
   color: green;
   text-align: center;
 }
@@ -37,19 +37,20 @@ body {
   background-color: #0000007d;
   border-radius: 10px;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: black;
   border-radius: 5px;
 }
 
-.invalid-input{
+.invalid-input {
   color: red;
   font-size: 12px;
-  margin-top:-20px
+  margin-top: -20px;
 }
-button:disabled{
+button:disabled {
   cursor: not-allowed;
 }
-.max-width{
+.max-width {
   width: 100%;
 }

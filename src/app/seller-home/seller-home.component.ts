@@ -17,7 +17,10 @@ export class SellerHomeComponent implements OnInit {
   ngOnInit(): void {
     this.list();
   }
-
+  public isComponentVisible:boolean = false;
+toggleForm(){
+this.isComponentVisible = !this.isComponentVisible;
+}
   deleteProduct(id: number) {
     this.product.deleteProduct(id).subscribe((result) => {
       if (result) {
